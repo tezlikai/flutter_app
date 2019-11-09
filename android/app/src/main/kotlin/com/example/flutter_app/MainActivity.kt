@@ -9,5 +9,10 @@ class MainActivity: FlutterActivity() {
   override fun onCreate(savedInstanceState: Bundle?) {
     super.onCreate(savedInstanceState)
     GeneratedPluginRegistrant.registerWith(this)
+    initView();
+  }
+
+  private fun initView() {
+    TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
   }
 }
