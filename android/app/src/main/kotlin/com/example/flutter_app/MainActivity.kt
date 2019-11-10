@@ -11,6 +11,11 @@ class MainActivity: FlutterActivity() {
     GeneratedPluginRegistrant.registerWith(this)
     initView()
     initData()
+    initFix()
+  }
+
+  private fun initFix() {
+    TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
   }
 
   private fun initData() {
